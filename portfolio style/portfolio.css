@@ -1,18 +1,21 @@
 /* common shared style */
-body{
+.body {
     font-family: 'Open Sans', sans-serif;
 }
-.port-title{
-    color:  #181818);
+
+.port-title {
+    color: #181818);
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
-.pri-color{
+
+.pri-color {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -25,29 +28,91 @@ body{
     padding: 10px 30px;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
+
 /* header related styles */
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+
 }
-.banner{
-    padding: 30px 30px 30px 180px;
+
+.banner {
+    padding: 30px 30px 0px 180px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-pic{
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner .profile-pic {
     width: 584px;
-    
+
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-intro {
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.about {
+    width: 1140px;
+    height: 550px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 230px 130px 230px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    /* margin: 131px 480p 30px 480px; */
+    padding: 131px 480px 30px 480px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Open Sans;
+}
+
+.description {
+    color: #757575;
+    text-align: center;
+ 
+    font-size: 18px;
+    padding: 0 157px 0 157px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
