@@ -38,3 +38,16 @@ nav li{
     list-style: none;
     margin-right: 50px;
 }
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 180px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 584px;
+    
+}
